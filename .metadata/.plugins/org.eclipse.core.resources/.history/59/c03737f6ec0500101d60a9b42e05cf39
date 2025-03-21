@@ -10,6 +10,7 @@ public static void main(String[] args) {
 		
 		int numero;
 		int soma = 0;
+		int contador_numeros_positivos = 0;
 		
 		
 		
@@ -19,7 +20,7 @@ public static void main(String[] args) {
 
             if (numero > 0) {
                 soma += numero;
-                
+                contador_numeros_positivos++;
             }
 
         } while (numero != 0);
